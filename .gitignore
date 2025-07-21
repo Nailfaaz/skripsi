@@ -1,0 +1,51 @@
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data (raw + processed)
+data/raw/
+data/processed/
+
+# Results (models, figures, logs)
+results/
+
+# Temporary files
+*.tmp
+*~
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# PyTest
+.pytest_cache/
