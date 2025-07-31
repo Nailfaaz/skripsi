@@ -1,0 +1,22 @@
+data:
+  root:    "datasets/split"
+  dataset: "shenzhen"
+  height:  224
+  width:   224
+
+model:
+  arch:       "mobile_unetr"
+  n_classes:  2
+  params:
+    model_size:   "large"
+    pretrained:   true
+    dropout_rate: 0.2
+
+train:
+  lr:            1e-4
+  epochs:        20
+  batch_size:    8
+  save_dir:      "results"
+  evaluate_test: false
+
+device: "cpu"
