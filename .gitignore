@@ -1,0 +1,54 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs/editor configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Checkpoints & model weights
+*.pth
+
+# Numpy data
+**/*.npy
+
+# Dataset folders (raw/processed/split)
+datasets/raw/
+datasets/processed/
+datasets/split/
+
+# Training outputs
+results/
+
+# Temporary files
+*.tmp
+*~
+
+# Mac desktop services
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*

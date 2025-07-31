@@ -1,0 +1,27 @@
+data:
+  root:    "datasets/split"
+  dataset: "shenzhen"
+  height:  224
+  width:   224
+
+model:
+  arch:      "swin_unet"
+  n_classes: 2
+  params:
+    img_size:      224
+    patch_size:    4
+    embed_dim:     96
+    depths:       [2,2,6,2]
+    num_heads:    [3,6,12,24]
+    window_size:   7
+    drop_rate:     0.0
+    drop_path_rate: 0.1
+
+train:
+  lr:            0.001
+  epochs:        5
+  batch_size:    8
+  save_dir:      "results"
+  evaluate_test: false
+
+device: "cpu"

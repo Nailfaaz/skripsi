@@ -1,0 +1,19 @@
+# path: configs/unet.yaml
+
+data:
+  root: "datasets/split"
+  dataset: "shenzhen"
+  height: 256
+  width: 256
+
+model:
+  bilinear: true
+
+train:
+  lr: 0.01
+  epochs: 2
+  batch_size: 8
+  save_dir: "results/unet"
+  evaluate_test: false
+  
+device: "cpu"
