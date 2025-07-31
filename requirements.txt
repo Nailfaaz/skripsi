@@ -1,7 +1,5 @@
 numpy
 pandas
-torch
-torchvision
 albumentations
 PyYAML
 tqdm
